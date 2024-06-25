@@ -1,0 +1,154 @@
+body{
+	background-color:#fff;
+}
+
+
+#ADM{
+	width:900px;
+	height: 490px;
+	background-color:#f8f8ff;
+	box-shadow: 2px 2px 3px;
+}
+#banner{
+	width: 890px;
+	height:150px;
+	box-shadow: 1px 2px;
+
+}
+#Cintillo2{
+	width: 690px;
+	height:150px;
+	position: relative;
+    left:0px;
+   
+	box-shadow: 2px 2px;
+}
+#cintillo{
+	width: 200px;
+	height:150px;
+	position: relative;
+    right:5px;
+   
+	box-shadow: 2px 2px;
+}
+
+#Gestion{
+	width: 200px;
+	height:320px;
+	box-shadow: 1px 1px 2px 1px ;
+	position: relative;
+    right:350px;
+	 }
+#Conter{
+	width: 690px;
+	height:310px;
+	box-shadow: 1px 1px 2px 1px;
+	position:relative;
+	margin-top:-310px;
+	left: 100px;
+	
+}
+
+#Infor{
+	position:relative;
+
+}
+.Input{
+	position:relative;
+	width:166px;
+	height: 25px;
+	border-radius:2px;
+	border-style: double;
+	border-color:#dcdcdc;
+}
+
+.ButtonSub{
+	position:relative;
+	border-style: none;
+	background-color:#3b5998;
+	color:white;
+	width:170px;
+	height:32px;
+	border-radius:2px;
+	margin-top:5px;
+	cursor:pointer;
+}
+
+#InputEmail{
+	position:relative;
+	margin-top: 5px;
+}
+.MenOp{
+	cursor: pointer;
+}
+.ButtonVer{
+	position:relative;
+	border-style: none;
+	background-color:#00bfff;
+	color:white;
+	width:170px;
+	height:32px;
+	border-radius:2px;
+	margin-top:5px;
+	cursor:pointer;
+
+}
+#DirecIp{
+	width: 690px;
+	height:320px;
+	position:relative;
+	box-shadow: 1px 1px 2px 1px;
+	margin-top:-320px;
+	left: 100px;
+	overflow: visible;
+}
+#DirecIp{
+	overflow:auto;
+}
+
+.VerRegis{
+	position:relative;
+	
+
+}
+.VerRegistro{
+	width:90px;
+}
+.Pagina{
+	
+}
+.th{
+	 background-color:rgb(22 ,107,162);
+              border: rgb(22,109,160) solid;
+              height:20px ;
+              width: 90px;
+
+}
+.p{
+	color:white;
+}
+.ButtonInicio{
+	position:relative;
+	border-style: none;
+	background-color:#3b5998;
+	color:white;
+	width:170px;
+	height:32px;
+	border-radius:2px;
+	margin-top:5px;
+	cursor:pointer;
+	margin-left: 450px;
+
+}
+.ButtonRegistro{
+	position:relative;
+	border-style: none;
+	background-color:green;
+	color:white;
+	width:170px;
+	height:32px;
+	border-radius:2px;
+	margin-top:5px;
+	cursor:pointer;
+	
+}

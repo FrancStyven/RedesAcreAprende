@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Direcciones Privadas</title>
+	<link rel="stylesheet" type="text/css" href="vista.css">
+</head>
+<body>
+<center>
+<div id="ADM">
+<div id="banner">
+
+<img id="cintillo" src="Img_Acreditable.jpg"><img id="Cintillo2" src="Img_Acreditable3.jpg">
+
+</div>
+
+
+	<div id="Gestion">
+	<div id="Infor">
+	<table>
+	<tr><td><a href="index.html">Inicio</a></td></tr>
+<tr><td><a href="Direccion_IP.html">Direcciones IP</a></td></tr>
+<tr><td> <a href="Clases_De_Direcciones_IP.html">Clases de Direcciones</a></td></tr>
+   <tr><td><a href="Direcciones_Privadas.html">Direcciones Privadas</a> </td></tr>
+   <tr><td><a href="Direcciones_Reservadas.html">Direciones Reservadas</a></td></tr>
+    <tr><td><a href="RegistroUsuario.php">Registrate</a></td></tr>
+
+</table>
+<div id="Subcripcion">
+<form action="controlador.php" method="POST">
+SUSCRÍBETE AL BOLETÍN MENSUAL
+<input class="Input" type="text" name="Nombre" placeholder="Nombre..." required><br>
+<div id="InputEmail">
+<input class="Input" type="email" name="Email" placeholder="Email..." required><br>
+</div>
+<button class="ButtonSub" type="submit">Suscribirse</button>
+</form>
+<form action="VerSsuscripicion.php" method="POST">
+<button class="ButtonVer" type="submit" >Ver suscripción</button>
+</form>
+
+</div>
+</div>
+	</div>
+
+	<div id="DirecIp">
+	<p>Direcciones IP Privada<br>En Internet, una red privada es una red de computadoras que usa el espacio de direcciones IP especificadas en el documento RFC 1918. A los equipos o terminales puede asignárseles direcciones de este espacio cuando deban comunicarse con otros terminales dentro de la red interna/privada (una que no sea parte de Internet/red pública) pero no con Internet directamente.
+
+Las redes privadas son bastante comunes en esquemas de redes de área local (LAN) de oficinas, empresas y ámbito doméstico, debido a que no tienen la necesidad de usar direcciones IP públicas es sus dispositivos (PC, impresora, etcétera), compartiendo todos los dispositivos de la red privada la misma dirección pública, habitualmente la del módem del router.
+
+Otra razón para el uso de direcciones IP privadas es la escasez de direcciones IP públicas. IPv6 se creó para combatir esta escasez de direcciones, pero aún no ha sido adoptado de forma definitiva.
+
+Los enrutadores en Internet se configuran de manera que descartan el tráfico dirigido a las direcciones privadas, lo cual hace que los equipos de la red privada estén aislados de las máquinas conectadas a Internet. Este aislamiento es una forma de seguridad básica, dado que no es posible realizar conexiones a las máquinas de la red privada desde Internet. A no ser que se abran puertos desde la tabla NAT (Network Address Translation) a una dirección privada de nuestra red. Aún así desde la red pública no se conocerá la dirección privada de nuestros dispositivos a los que se está accediendo. Se conocerá la dirección pública del módem del router y el puerto abierto para la dirección privada, todos los dispositivos de nuestra red privada compartirán la IP Pública del módem de nuestro router.
+
+Como no es posible realizar conexiones entre distintas redes privadas a través de Internet, distintas redes privadas pueden usar el mismo rango de direcciones privadas sin riesgo de que se generen conflictos con ellas, es decir, no se corre el riesgo de que una comunicación le llegue por error a un tercero que esté usando la misma dirección IP en otra red privada.
+
+Si un dispositivo de una red privada necesita comunicarse con otro dispositivo de otra red privada distinta, es necesario que cada red cuente con una puerta de enlace con una dirección IP pública por la que acceder a internet, de manera que pueda ser alcanzada desde fuera de la red y así se pueda establecer una comunicación, ya que un router podrá tener acceso a esta puerta de enlace hacia la red privada. Típicamente, esta puerta de enlace será un dispositivo de traducción de dirección de red (NAT) o un servidor proxy.
+
+Sin embargo, esto puede ocasionar problemas cuando distintas compañías intenten conectar redes que usan direcciones privadas. Existe el riesgo de que se produzcan conflictos y problemas de ruteo si ambas redes usan las mismas direcciones IP para sus redes privadas o si dependen de la traducción de dirección de red (NAT) para que se conecten a través de Internet.</p>
+	</div>
+	<a href=""> Copyright(R) Luis Hernandez & Vanesa Viña</a>
+	</div>
+
+	</center>
+
+
+</body>
+</html>

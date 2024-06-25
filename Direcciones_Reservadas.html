@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Clases de direcciones IP</title>
+	<link rel="stylesheet" type="text/css" href="vista.css">
+</head>
+<body>
+<center>
+<div id="ADM">
+<div id="banner">
+
+<img id="cintillo" src="Img_Acreditable.jpg"><img id="Cintillo2" src="Img_Acreditable3.jpg">
+
+</div>
+
+
+	<div id="Gestion">
+	<div id="Infor">
+	<table>
+	<tr><td><a class="MenOp"href="index.html">Inicio</a></td></tr>
+<tr><td><a class="MenOp"href="Direccion_IP.html">Direcciones IP</a></td></tr>
+<tr><td> <a class="MenOp"href="Clases_De_Direcciones_IP.html">Clases de Direcciones</a></td></tr>
+   <tr><td><a class="MenOp"href="Direcciones_Privadas.html">Direcciones Privadas</a> </td></tr>
+   <tr><td><a class="MenOp"href="Direcciones_Reservadas.html">Direciones Reservadas</a></td></tr>
+    <tr><td><a href="RegistroUsuario.php">Registrate</a></td></tr>
+
+</table>
+<div id="Subcripcion">
+<form action="controlador.php" method="POST">
+SUSCRÍBETE AL BOLETÍN MENSUAL
+<input class="Input" type="text" name="Nombre" placeholder="Nombre..." required><br>
+<div id="InputEmail">
+<input class="Input" type="email" name="Email" placeholder="Email..." required><br>
+</div>
+<button class="ButtonSub" type="submit">Suscribirse</button>
+</form>
+<form action="VerSuscripcion.php" method="POST">
+<button class="ButtonVer" type="submit" >Ver suscripción</button>
+</form>
+
+</div>
+</div>
+	</div>
+
+	<div id="DirecIp">
+	<p>Direcciones IP Reservadas<br>
+	No todas las direcciones comprendidas entre la 0.0.0.0 y la 223.255.255.255 son válidas para un host: algunas de ellas tienen significados especiales. Las principales direcciones especiales se resumen en la siguiente tabla. Su interpretación depende del host desde el que se utilicen.
+
+Bits de red
+
+Bits de host
+
+Significado
+
+Ejemplo
+
+todos 0
+
+Mi propio host
+
+0.0.0.0
+
+todos 0
+
+host
+
+Host indicado dentro de mi red
+
+0.0.0.10
+
+Red
+
+todos 0
+
+Red indicada
+
+192.168.1.0
+
+todos 1
+
+Difusión a mi red
+
+255.255.255.255
+
+Red
+
+todos 1
+
+Difusión a la red indicada
+
+192.168.1.255
+
+127
+
+cualquier valor válido de host
+
+Loopback (mi propio host)
+
+127.0.0.1
+
+
+Difusión o broadcasting es el envío de un mensaje a todos los ordenadores que se encuentran en una red. La dirección de loopback (normalmente 127.0.0.1) se utiliza para comprobar que los protocolos TCP/IP están correctamente instalados en nuestro propio ordenador. Lo veremos más adelante, al estudiar el comando PING. 
+
+0.0.0.0 Se usa por las estaciones cuando están siendo arrancadas. 
+
+127.0.0.1 se reserva para especificar la estación actual.
+
+Además para cada clase de red se establecen una numeración reservada.  Esta numeración se utiliza, generalmente, en las redes locales.  Las direcciones reservadas son:
+<img src="imag.png">
+
+</p>
+</div>
+	<a href=""> Copyright(R) Luis Hernandez & Vanesa Viña</a>
+	</div>
+
+	</center>
+
+
+</body>
+</html>
